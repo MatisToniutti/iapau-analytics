@@ -30,7 +30,7 @@ public class Serveur {
     private static final Logger LOGGER = Logger.getLogger(Serveur.class.getName());
     private static final String SERVEUR = "localhost"; // url de base du service
     private static final int PORT = 8080; // port serveur
-    private static final String URL = "/; // url de base du service
+    private static final String URL = "/"; // url de base du service
     // boucle principale qui lance le serveur sur le port 8080, à l'url test
 
     public static void main(String[] args) {
