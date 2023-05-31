@@ -11,5 +11,5 @@ RUN  apk update \
   && rm -rf /var/cache/apk/*
 
 RUN javac -cp json.jar Serveur.java
-RUN java -cp json.jar Serveur.java
+CMD ["java", "-cp", "json.jar", "Serveur.java"]
 
