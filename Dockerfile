@@ -10,6 +10,6 @@ RUN  apk update \
   && apk add --update openjdk11 tzdata curl unzip bash \
   && rm -rf /var/cache/apk/*
 
-RUN javac -cp json.jar server.java
-RUN java -cp json.jar server.java
+RUN javac -cp json.jar Serveur.java
+RUN java -cp json.jar Serveur.java
 
