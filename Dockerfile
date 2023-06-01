@@ -3,7 +3,7 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 8081
 
 RUN  apk update \
   && apk upgrade \

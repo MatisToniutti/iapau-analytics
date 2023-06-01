@@ -28,7 +28,7 @@ import java.nio.file.Paths;
 public class Serveur {
     // logger pour trace
     private static final Logger LOGGER = Logger.getLogger(Serveur.class.getName());
-    private static final int PORT = 8080; // port serveu    client.setServiceInterface(ITestBean.class);r
+    private static final int PORT = 8081; // port serveu    client.setServiceInterface(ITestBean.class);r
     private static final String URL = "/raw"; // url de base du service
     // boucle principale qui lance le serveur sur le port 8080, à l'url test
 
